@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Limbu&display=swap');
+.bg-container {
+    height: 90vh;
+    background-image: url(" https://res.cloudinary.com/dkmozvoz1/image/upload/v1667570491/IMG-20221104-WA0024_ahehln.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #fab1a0;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 1;
+}
+
+.nav_link:hover {
+    opacity: 0.7;
+    color: blue;
+}
+
+.rightSideMenu>ul>li {
+    display: inline;
+    margin-right: 5vh;
+
+
+}
+
+.rightSideMenu>ul>li>a {
+
+    color: #213055;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+
+}
+
+.clg-logo {
+    height: 16vh;
+    width: 40vh;
+    background-size: cover;
+    border-top-right-radius: 8vh;
+    border-bottom-right-radius: 8vh;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+
+}
+
+.reightsidemenu>ul>li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.ul li a {
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.ul li a::before {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: orangered;
+    position: absolute;
+    bottom: -2px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.ul li a:hover::before {
+    width: 100%;
+}
+
+.ul li.center a::before {
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.head2 {
+    height: 20vh;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "poppins";
+
+    padding-top: 20vh;
+    margin-left: 4vh;
+    background: linear-gradient(red 15px, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+    line-height: 54px;
+
+}
+
+.para2 {
+    color: #3d1313;
+    font-size: 25px;
+    font-family: 'Noto Sans Limbu', sans-serif;
+    font-weight: bold;
+    width: 90vh;
+    margin-left:5vh;
+    top: 0;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+
+.button2 {
+    height: 8vh;
+    width: 25vh;
+    border-radius: 12vh;
+    color: white;
+    background-color: #5c1919;
+    border-width: 0px;
+    font-size: 20px;
+    margin-left: 15vh;
+    cursor: pointer;
+
+
+
+}
+
+.button2:hover {
+    height: 7.8vh;
+    width: 24.8vh;
+    background: linear-gradient(#3599b0 25px, blue);
+    transition: 0.5s;
+    transform: 0.5s;
+    color: white
+    
+    
+}
